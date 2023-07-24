@@ -1,0 +1,56 @@
+a = 10
+b =20
+c = 9
+'''
+
+if a > b:
+    if a == b:
+        print('a is equal 20')
+    else:
+        print(f"{a}is greater than{b}")
+elif a < b:
+    print(f"{a}is less than{b}")
+else:
+    print(f"{a}is equal to{b}")
+'''
+'''
+fruits = ['Apple' , 'Banana' , 'orange']
+
+for _ in 'Hello world':
+    if a == 12:
+        break
+    print(a)
+    a += 1
+'''
+'''
+fruits = ['Apple' , 'Banana' , 'orange']
+foods= ['rice', 'beans' ,'chicken']
+
+for fruit in fruits:
+    print(fruit)
+    for food in foods:
+        print(food)
+'''
+'''
+while a > b:
+    while c < 12:
+        print(c)
+        c+=1
+    print(b)
+    b+=1
+'''
+'''
+for number in range (5,20,2):
+    print(number)
+'''
+'''
+
+alph = input("Enter word")
+vowels = ['a','e','i','o','u']
+count=0
+for c in alph:
+    if c in vowels:
+        count += 1 
+print(count)
+'''
+
