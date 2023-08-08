@@ -1,0 +1,9 @@
+class Iphone14:
+    def __init__(self , color , price):
+        self.color = color
+        self.price = price
+
+    def intro (self,):
+        print()
+
+
