@@ -1,4 +1,2 @@
+class Student 
 
-
-from hint.testing import char
-print(char)
